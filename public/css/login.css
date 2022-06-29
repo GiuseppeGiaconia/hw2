@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+           
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    color: #1c1e21;
+    
+}
+.sfondo{
+    height: 100%;
+    width: 100%;
+    background-image: url('http://localhost/hw2/public/img/spotify.png');
+    margin: 0 auto;
+   
+  
+}
+
+main {
+    height: 700px;
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.colm-form {
+    flex: 0 0 40%;
+    text-align: center;
+}
+
+
+
+.colm-form .form-container {
+    background-color: rgba(0,0,0,0.4);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.colm-form .form-container input, .colm-form .form-container .btn-login {
+    width: 100%;
+    margin: 5px 0;
+    height: 45px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.colm-form .form-container input {
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 0 8px;
+    outline: none;
+}
+
+.colm-form .form-container input:focus {
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.colm-form .form-container .btn-login {
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+
+
+
+
+.colm-form .form-container .btn-login:hover{
+    
+    background-color: rgb(144, 207, 85);
+}
+
+
+
+h2.d1{
+    font-size: 2cm;
+    color:  white;
+    font-family:monospace;
+}
+h2{
+    font-size: 1cm;
+    color:  white;
+    font-family:monospace;
+}
+.scritta{
+   font-size: small;
+   color: black;
+
+
+}
+
+.descr{
+    font-size: large;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:500px){
+    .row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        max-width: 1000px;
+        position: absolute;
+        left: 250px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
